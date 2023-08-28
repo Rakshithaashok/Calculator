@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+body{
+   background-color:#DFE7E7; 
+}
+.container{
+   height: 100vh;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.calculator {
+    height: 500px;
+    width: 350px;
+    padding: 10px;
+    margin: auto;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.display-box{
+    font-family: 'Xenara';
+    background-color: #FFF1E7;
+    color: black;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 0.5em;
+    text-align: right;
+    font-size: 2.5em;
+}
+input[type=button]{
+    font-family: 'Georgia';
+    background-color: #EDEDEC;
+    color: black;
+    border: none;
+    width:100%;
+    height:70%; 
+    border-radius: 1em;
+    outline: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+input:active[type=button]{
+    background: #e5e5e5;   
+}
+.dark-mode {
+  .calculator{
+  background-color: black;
+  }
+}
+.dmode{
+  background-color: #EDEDEC;
+  width: 100%;
+  height: 70%;
+  border-radius: 1em;
+  border: none;
+  padding: 0;
+}
+img{
+ width: auto;
+ height:15px;
+}
